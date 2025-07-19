@@ -1,8 +1,8 @@
 Leul Nigussie 
 📍 Arlington, VA 22204  
-📞 (571) 217-4486  
+📞  
 ✉️ leuln1212@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/leul-nigussie)  
+🔗 [LinkedIn]https://linkedin.com/in/leul-nigussie  
 🌐 [Cybersecurity Portfolio Website](https://leulcyber.github.io/cybersecurity-portfolio-leul/)
 
 ---
