@@ -1,0 +1,22 @@
+# Ignore system and hidden files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore OneDrive files
+*.lnk
+*.tmp
+~$*
+*.bak
+
+# Ignore OS/IDE clutter
+*.log
+*.swp
+*.swo
+*.swn
+.idea/
+.vscode/
+__pycache__/
+
+# Ignore screenshots backup metadata
+*.autosave
