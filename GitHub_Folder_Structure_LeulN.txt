@@ -1,0 +1,71 @@
+ProjectLeulN/
+├── README.md                        # High-level project summary
+
+├── 1_GRC_Compliance/
+│   ├── README.md
+│   ├── Risk_Register_Leul.xlsx
+│   ├── NIST_Control_Matrix_Leul.xlsx
+│   ├── Audit_Compliance_Checklist_Leul.xlsx
+│   └── Acceptable_Use_Policy_Leul.pdf
+
+├── 2_IAM_Entra_Governance/
+│   ├── README.md
+│   ├── IAM_Governance_Policy_Leul.pdf
+│   ├── Conditional_Access_Policy.pdf
+│   ├── Screenshots/
+│   │   ├── Access_Review_Setup.png
+│   │   ├── Conditional_Access_Block_Legacy.png
+│   │   ├── Require_MFA_All_Users.png
+│   │   ├── Global_Admin_Assignment.png
+│   │   ├── User_Admin_Role_Assignment.png  ✅
+│   │   └── PIM_Configuration.png
+
+├── 3_AWS_Cloud_3Tier_Architecture/
+│   ├── README.md
+│   ├── Screenshots/
+│   │   ├── VPC_And_Subnets.png  ✅
+│   │   ├── Internet_Gateway_Attached.png  ✅
+│   │   ├── Route_Table_Public_Subnet.png  ✅
+│   │   ├── Security_Groups_Overview.png  ✅
+│   │   ├── EC2_Instance_Details.png  ✅
+│   │   ├── SSH_Into_Web_Server.png  ✅
+│   │   ├── Web_Server_Reachable.png  ✅
+│   │   ├── Curl_Web_To_App_Success.png  ✅
+│   │   ├── GuardDuty_Findings.png
+│   │   └── CloudTrail_Logs_S3_Bucket.png
+
+├── 4_Blue_Team_Splunk_Analysis/
+│   ├── README.md
+│   ├── Splunk_Audit_Log_Monitoring.png
+│   ├── Splunk_Process_Creation_Monitoring.png
+│   ├── Splunk_Analytics_Chart.png  ✅
+
+├── 5_Red_Team_SMB_Enumeration/
+│   ├── README.md
+│   ├── Screenshots/
+│   │   ├── Kali_IP_Config_Ping.png  ✅
+│   │   ├── Win_IP_Config_Check.png  ✅
+│   │   ├── Nmap_Host_Discovery.png
+│   │   ├── Enum4linux_SMB_Enum.png
+│   │   ├── CrackMapExec_SMB_Scan.png
+│   │   ├── CME_Valid_Creds_SMB.png  ✅
+│   │   ├── CME_Enum_Shares.png  ✅
+│   │   ├── CME_SMB_Authenticated.png  ✅
+
+├── 6_Red_Team_Persistence_Lateral/
+│   ├── README.md
+│   ├── Screenshots/
+│   │   ├── Registry_Persistence_Added.png
+│   │   ├── Osquery_Registry_Detection.png
+│   │   ├── Osquery_Process_List.png
+│   │   ├── Certutil_Simulation.png
+│   │   ├── Certutil_Detection_Osquery.png
+│   │   └── AlwaysInstallElevated_Enabled.png
+
+├── 7_Linux_Cred_Dumping/
+│   ├── README.md
+│   └── LaZagne_Linux_Execution.png
+
+├── 8_Incident_Response/
+│   ├── README.md
+│   └── Incident_Response_Plan_Leul.pdf
